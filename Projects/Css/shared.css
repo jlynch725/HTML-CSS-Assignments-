@@ -211,6 +211,7 @@ Contact Styles
     word-spacing: 0pt;
 }
 
+
 .reservation h2 span {
     width: 70%;
     text-align: center;
@@ -221,6 +222,13 @@ Contact Styles
     letter-spacing: .4pt;
     word-spacing: .3pt;
 }
+
+.reservation p {
+    color: #13161b;
+    width: 50%;
+    margin: 0 auto;
+}
+
 
 .reservation form {
     font-size: 15px;
@@ -244,6 +252,7 @@ Contact Styles
     color: #8d8e8f;
     padding: 2% 1% 2% 7%;
     width: 80%;
+    text-align: center;
     border-top: 1px solid #090b0d;
     border-right: 2px solid #424549;
     border-bottom: 2px solid #424549;
@@ -272,6 +281,10 @@ Contact Styles
     cursor: pointer;
     font-family: "Raleway", sans-serif;
     font-weight: 600;
+    position: relative;
+    display: inline;
+    float: right;
+    margin-top: 13%; 
 }
 .terms:hover {
     color: orange;
@@ -288,7 +301,7 @@ Contact Styles
     margin: 0px 3%;
     padding: 7px 0px;
     width: 25%;
-    font-size: 10px;
+    font-size: 18px;
     transition: border-color 0.3s color 0.3s background-color 0.3s;
     border-radius: 7px;
     background-color: #797a7b;
@@ -310,4 +323,35 @@ Contact Styles
     text-align: right;
 }
 
+/*---------------------------
+media queries
+--------------------------*/
+@media all and (max-width:640px) and (min-width:381px) {
+    .head-main {
+        font-size: 24px ;
+    }
+}
+
+@media all and (max-width:381px) and (min-width:200px) {
+    .head-main {
+        font-size: 28px ;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}
 
