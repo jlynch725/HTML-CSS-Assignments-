@@ -110,6 +110,9 @@ section {
     height: 100%;
     width: 100%;
     position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
     /*This ensures that the images canot 
     render outside of their container without
     forcing any scrollbars*/
