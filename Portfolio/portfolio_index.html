@@ -8,8 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet"  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style_portfolio.css">
-    <link rel="stylesheet" href="css/animations_portfolio.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/animations_portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Web-Dev Portfolio</title>
   </head>
   <body>
@@ -38,20 +38,22 @@
       <h1>My Work</h1>
         <div class="row">
           <div class="column">
-            <div class="card" style="width: 18rem; height: 32rem">
-            <img class="card-img-top" src="./language_logos.png" alt="Big Fish pic" height=200px;>
-              <div class="card-body">
-              <h5 class="card-title">Big Fish</h5>
-                <p class="card-text">
-                   <ul>
-                      <li>HTML</li>
-                      <li>CSS</li>
-                      <li>Java Script</li>
-                  </ul>
+            <div class="card">
+                <img src="./language_logos.png" alt="John" style="width:100%">
+                <h2>Languages</h2>
+                <p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
                 </p>
+                
               </div>
-            </div>
-           </div>
+              <br>
+
+
+            </br>
         <div>
           <div class="flex-container">
             <!-----Photo-container 1------>
@@ -59,7 +61,6 @@
                 <div class="photo">
                     <img src="./mtn_guide_photo.PNG" alt="Mountain guide photo">
                     <div class="photo-overlay">
-                        <h3>Click to Enlarge</h3>
                         <p>One-page website made with HTML/CSS that details different ski resorts in America.</p>
                     </div>
                 </div>
@@ -69,7 +70,6 @@
               <div class="photo">
                   <img src="./Academy_cinema_photo.png" alt="Academy Cinemas">
                   <div class="photo-overlay">
-                      <h3>Click to Enlarge</h3>
                       <p>One-page website made with HTML/CSS and Bootstrap displaying movie times</p>
                   </div>
               </div>
@@ -78,18 +78,32 @@
         </div>
       </div>
     </div>
-
+    <br></br>
+    <br></br>
+    <br></br>
+    <br></br>
         <!---About me---->
-        <div id="about"
-          <h1>ABOUT ME</h1>
-            <img src="./JL_photo.jpg" alt="Me" width= 500px height= 500px class="center" "rounded-corners">
-            <p>After two years in the tech industry on the client-facing side, I am excited to start my career as a software developer. 
+        <div id="about">
+        <h1>ABOUT ME</h1>
+        <br></br>
+            <div class="photo-container_2">
+            <div class="photo_2">
+            <img src="./JL_photo.jpg" alt="Me" class="center" class="photo">
+           </div>
+            </div>
+            <br></br>
+            <br></br>
+           <div class="text-container">
+             <p>After two years in the tech industry on the client-facing side, I am excited to start my career as a software developer. 
                 I have a unique understanding of the problems and functionality issues that arrise with many web-based apps or products, 
                 and I can't wait to actually be on the front lines improving them. Origionaly from Boston, I moved to Salt Lake City after 
                 graduating from college in Virginia. 
-            </p>
+             </p>
+            </div>
         </div>
-
+        <br></br>
+        <br></br>
+        <br></br>
             <!---Rsvp-->
         <section id="contact">
           <div class="container">
@@ -110,31 +124,18 @@
                 </div>
             </div>
           </div>
+        </div>
+    </
             </section>
             <!---end rsvp-->
 
-            <!----Footer-->
+           <!-- Add icon library -->
 
-          <div class="footer-nav-container">
-            <ul class="nav nav-inline">
-                <li class="nav-item">
-                    <small><a class="nav-linkactive" href="#home">HOME</a></small>
-                </li>
-                <li class="nav-item">
-                    <small><a class="nav-link" href="#projects">MY WORK</a></small>
-                </li>
-                <li class="nav-item">
-                    <small><a class="nav-link" href="#about">ABOUT ME</a></small>
-                </li>
-                <li class="nav-item">
-                  <small><a class="nav-link" href="#contact">CONTACT</a></small>
-              </li>
-                <li class="nav-item">
-                    <small><a class="nav-link">&copy;2020 Joe Lynch Portfolio&reg;</small>
-                </li>
-            </ul>
-        </div>
-      </div>
+                <!-- Add font awesome icons -->
+                <a href= url(https://www.facebook.com/joseph.lynch.980?ref=bookmarks) class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+          
 
 
 
