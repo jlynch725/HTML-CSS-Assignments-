@@ -1,0 +1,28 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+    filter: grayscale(100%);
+}
+
+img {
+    border-radius: 25px;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+}
+
+Table, th, td {
+    border: 5px solid green;
+    text-align: left;
+}
+
+th {
+    background-color: lightblue;
+}
