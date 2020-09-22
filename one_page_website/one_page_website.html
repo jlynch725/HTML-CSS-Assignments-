@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>Chance to win free Golf Vacation!</title>
 		<link rel="stylesheet" href="one_page_website.css">
+		<script src="JS/one_page_website.js" defer></script>
 	</head>
 	<body>
 	
@@ -35,12 +36,60 @@
 			<div id="East Coast Courses">
 				<h1>East Coast Courses</h1>
 				<div>
-					<img src="https://www.golfdigest.com/content/dam/images/golfdigest/fullset/2019/01/14/5c3cc78b14ab9c2d16760a6e_DJI_0038.jpg" alt="Pine Valley Golf Course" height="300" width="350">
+					<img src="https://www.golfdigest.com/content/dam/images/golfdigest/fullset/2019/01/14/5c3cc78b14ab9c2d16760a6e_DJI_0038.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" alt="Pine Valley Golf Course" height="300" width="350">
 				</div>
 				<div>
-					<img src="https://www.top100golfcourses.com/img/courses/merion-east_c47863fd-3090-4c41-91c2-6d26fad370e1.jpg" atl="Marian golf club" height="300" width="350">
+					<img src="https://www.top100golfcourses.com/img/courses/merion-east_c47863fd-3090-4c41-91c2-6d26fad370e1.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" atl="Marian golf club" height="300" width="350">
 				</div>
 			</div>
+
+			<!-- The Modal/Lightbox -->
+			<div id="myModal" class="modal">
+				<span class="close cursor" onclick="closeModal()">&times;</span>
+				<div class="modal-content">
+			
+				<div class="mySlides">
+					<div class="numbertext">1 / 4</div>
+					<img src="https://www.golfdigest.com/content/dam/images/golfdigest/fullset/2019/01/14/5c3cc78b14ab9c2d16760a6e_DJI_0038.jpg" style="width:100%">
+				</div>
+			
+				<div class="mySlides">
+					<div class="numbertext">2 / 4</div>
+					<img src="https://www.top100golfcourses.com/img/courses/merion-east_c47863fd-3090-4c41-91c2-6d26fad370e1.jpg" style="width:100%">
+				</div>
+
+				<!-- Next/previous controls -->
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		
+			 <!-- Caption text -->
+				<div class="caption-container">
+					<p id="caption"></p>
+				</div>
+
+				<!-- Thumbnail image controls -->
+			
+				<div class="column">
+					<img class="demo" src="https://www.golfdigest.com/content/dam/images/golfdigest/fullset/2019/01/14/5c3cc78b14ab9c2d16760a6e_DJI_0038.jpg" 
+			style="width:100%" onclick="currentSlide(1)" alt="Oakmont CC">
+				</div>
+			
+				<div class="column">
+					<img class="demo" src="https://www.top100golfcourses.com/img/courses/merion-east_c47863fd-3090-4c41-91c2-6d26fad370e1.jpg" 
+			style="width:100%" onclick="currentSlide(2)" alt="Marian CC">
+				</div>
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+
+
 		</section>
 		<!--END EAST COAST COURSES-->
 		
